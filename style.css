@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(130deg, #ff9671, #ff6f91);
+}
+
+.container img{
+    width: 8%;
+    height: 15%;
+}
+
+.notes{
+    padding-top: 45px;
+    padding-left: 55px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notes p{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.createNote{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.createNote img{
+    padding-left: 15px;
+    width: 20%;
+    height: 50%;
+}
+
+.createNote button{
+    background: linear-gradient(130deg, #845ec2, #d65db1);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 15rem;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.notesContainer{
+    margin: 7px 40px;
+}
+
+.notesContainer p{
+    
+    border-radius: 15px;
+    display: inline-flex;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: white;
+    padding: 18px 20px;
+    margin: 10px 20px;
+    border: none;
+    outline: none;
+
+    position: relative;
+
+}
+
+.notesContainer img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
